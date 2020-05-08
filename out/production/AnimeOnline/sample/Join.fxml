@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="174.0" prefWidth="388.0" style="-fx-background-color: #ca577f;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Join">
+   <children>
+      <AnchorPane layoutX="8.0" layoutY="37.0" prefHeight="123.0" prefWidth="374.0" style="-fx-background-color: #F0F0F0;" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="7.0">
+         <children>
+            <Label layoutX="15.0" layoutY="10.0" prefHeight="27.0" prefWidth="163.0" style="-fx-background-color: #F0F0F0;" text="Your nickname" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="196.0" AnchorPane.topAnchor="10.0">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="219.0" layoutY="22.0" prefHeight="15.0" prefWidth="117.0" style="-fx-background-color: #F0F0F0;" text="Room code" AnchorPane.topAnchor="10.0">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Join_nickname" layoutX="8.0" layoutY="48.0" prefHeight="30.0" prefWidth="168.0" promptText="Write your nickname" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="44.0" />
+            <TextField fx:id="Join_code" layoutX="193.0" layoutY="48.0" prefHeight="30.0" prefWidth="168.0" promptText="Write the code" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="44.0" />
+            <Button fx:id="Join_button" graphicTextGap="0.0" layoutX="162.0" layoutY="85.0" mnemonicParsing="false" style="-fx-background-color: #FFE01C; -fx-border-radius: 10;" text="Join" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="162.0" AnchorPane.rightAnchor="162.0" AnchorPane.topAnchor="85.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="113.0" layoutY="8.0" text="Join the room" textFill="WHITE" AnchorPane.leftAnchor="113.0" AnchorPane.rightAnchor="113.0">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
